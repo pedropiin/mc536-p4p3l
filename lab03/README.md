@@ -9,12 +9,11 @@
 * `Pedro da Rosa Pinheiro` - `231081`
 
 ## Modelo Conceitual ER Original
-<p align="center">
+
 <img src="images/ER_MC536_P4P3R - Page 1.png" width="400px" height="auto">
-</p>
-<p align="center">
+
 *Diagrama ER Original*
-</p>
+
 
 
 ## Mapeamento para o Modelo Relacional
