@@ -8,25 +8,33 @@
 * `Pablo Henrique Almeida Mendes` - `230977`
 * `Pedro da Rosa Pinheiro` - `231081`
 
-## Modelo Conceitual ER Revisado
-
-> Coloque aqui o diagrama entidade-relacionamento original ou revisado para transformação em modelo relacional. O diagrama deve atributos, cardinalidade e entidades fracas.
->
-> Indique abaixo do diagrama (como no exemplo), se é o original ou o revisado.
->
-> Não é necessário colocar o diagrama UML revisado.
-
+## Modelo Conceitual ER Original
+<p align="center">
 <img src="images/ER_MC536_P4P3R - Page 1.png" width="400px" height="auto">
+</p>
+<p align="center">
+*Diagrama ER Original*
+</p>
 
-*Diagrama ER Revisado*
 
 ## Mapeamento para o Modelo Relacional
 
-> Coloque aqui o modelo relacional que mapeia o modelo ER (original ou revisado). Nesse modelo deve constar o esquema das relações, com as chaves primárias e estrangeiras. A especificação de tipos de atributos é opcional.
-
-> Exemplo de modelo lógico relacional
 ~~~
-PESSOA(_Código_, Nome, Telefone)
-ARMÁRIO(_Código_, Tamanho, Ocupante)
-  Ocupante chave estrangeira -> PESSOA(Código)
+DIA(Ano, Mês)
+REFEIÇÃO (Balanceamento)
+REFEIÇÃO REGULAR 
+REFEIÇÃO VEGETARIANA
+REFEIÇÃO VEGANA
+ALUNO
+PORÇÃO (Aceitação, Frequência, Valor Nutricional)
+INGREDIENTE (Valor Nutricional)
+NUTRIENTE (Quantidade)
+PROTEÍNA
+CARBOIDRATO
+LIPÍDEO
+VITAMINAS
+PERFIL NUTRICIONAL
+PERFIL NUTRICIONAL DIÁRIO
+PERFIL NUTRICIONAL MENSAL
+PERFIL NUTRICIONAL ANUAL
 ~~~
