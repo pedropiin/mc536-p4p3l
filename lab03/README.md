@@ -19,8 +19,8 @@
 ## Mapeamento para o Modelo Relacional
 
 ~~~
-DIA(Ano, Mês, <ins>Dia</ins>)
-CARDAPIO (<ins>ID Cardapio</ins>, Balanceamento, Guarnicao, Sobremesa, Salada, Fruta, Prato Principal Regular, Prato Principal Vegano)
+DIA(Ano, Mês, _Dia_)
+CARDAPIO (_ID Cardapio_, Balanceamento, Guarnicao, Sobremesa, Salada, Fruta, Prato Principal Regular, Prato Principal Vegano)
     Guarnição chave estrangeira -> Porção (ID Porção)
     Sobremesa chave estrangeira -> Porção (ID Porção)
     Salada chave estrangeira -> Porção (ID Porção)
@@ -33,8 +33,8 @@ REFEIÇÃO (ID Cardapio, Dia, RA, Perfil Nutricional)
     ID Cardápio chave estrangeira -> CARDÁPIO (ID Cardápio)
     Dia chave estrangeira -> DIA (Dia)
     RA chave estrangeira -> Aluno (RA)
-ALUNO (<ins>RA</ins>, Nome)
-PORÇÃO (Aceitação, Frequência, Valor Nutricional, <ins>ID Porção</ins>)
+ALUNO (_RA_, Nome)
+PORÇÃO (Aceitação, Frequência, Valor Nutricional, _ID Porção_)
 COMPONENTES (ID Porção, ID Ingrediente)
     ID Porção chave estrangeira -> Porção (ID Porção)
     ID Ingrediente chave estrangeira -> Ingrediente (ID Ingrediente)
