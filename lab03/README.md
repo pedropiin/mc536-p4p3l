@@ -27,8 +27,6 @@ CARDAPIO (_ID Cardapio_, Balanceamento, Guarnicao, Sobremesa, Salada, Fruta, Pra
     Fruta chave estrangeira -> Porção (ID Porção)
     Prato Principal Regular chave estrangeira -> Porção (ID Porção)
     Prato Principal Vegano chave estrangeira -> Porção (ID Porção)
-CARDAPIO REGULAR 
-CARDAPIO VEGANO
 REFEIÇÃO (ID Cardapio, Dia, RA, Perfil Nutricional)
     ID Cardápio chave estrangeira -> CARDÁPIO (ID Cardápio)
     Dia chave estrangeira -> DIA (Dia)
