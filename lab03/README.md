@@ -19,21 +19,24 @@
 ## Mapeamento para o Modelo Relacional
 
 ~~~
-DIA(Ano, Mês)
-REFEIÇÃO (Balanceamento)
-REFEIÇÃO REGULAR 
-REFEIÇÃO VEGETARIANA
-REFEIÇÃO VEGANA
-ALUNO
-PORÇÃO (Aceitação, Frequência, Valor Nutricional)
-INGREDIENTE (Valor Nutricional)
-NUTRIENTE (Quantidade)
-PROTEÍNA
-CARBOIDRATO
-LIPÍDEO
-VITAMINAS
-PERFIL NUTRICIONAL
-PERFIL NUTRICIONAL DIÁRIO
-PERFIL NUTRICIONAL MENSAL
-PERFIL NUTRICIONAL ANUAL
+DIA(Ano, Mês, <ins>Dia</ins>)
+CARDAPIO (<ins>ID Cardapio</ins>, Balanceamento, Guarnicao, Sobremesa, Salada, Fruta, Prato Principal Regular, Prato Principal Vegano)
+    Guarnição chave estrangeira -> Porção (ID Porção)
+    Sobremesa chave estrangeira -> Porção (ID Porção)
+    Salada chave estrangeira -> Porção (ID Porção)
+    Fruta chave estrangeira -> Porção (ID Porção)
+    Prato Principal Regular chave estrangeira -> Porção (ID Porção)
+    Prato Principal Vegano chave estrangeira -> Porção (ID Porção)
+CARDAPIO REGULAR 
+CARDAPIO VEGANO
+REFEIÇÃO (ID Cardapio, Dia, RA, Perfil Nutricional)
+    ID Cardápio chave estrangeira -> CARDÁPIO (ID Cardápio)
+    Dia chave estrangeira -> DIA (Dia)
+    RA chave estrangeira -> Aluno (RA)
+ALUNO (<ins>RA</ins>, Nome)
+PORÇÃO (Aceitação, Frequência, Valor Nutricional, <ins>ID Porção</ins>)
+COMPONENTES (ID Porção, ID Ingrediente)
+    ID Porção chave estrangeira -> Porção (ID Porção)
+    ID Ingrediente chave estrangeira -> Ingrediente (ID Ingrediente)
+INGREDIENTE (ID Ingrediente, Valor Energético, Quantidade Proteína, Quantidade, Carboidrato, Quantidade Lipídio, Quantidade Vitaminas)
 ~~~
