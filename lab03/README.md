@@ -5,6 +5,10 @@
 * `Pablo Henrique Almeida Mendes` - `230977`
 * `Pedro da Rosa Pinheiro` - `231081`
 
+## Modelo Conceitual ER Antigo
+
+<img src="images/ER_MC536_P4P3R_antiga.png" width="400px" height="auto">
+
 ## Modelo Conceitual ER Revisado
 
 <img src="images/ER 536 (1).png" width="400px" height="auto">
