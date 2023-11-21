@@ -1,19 +1,8 @@
-# Modelo para Apresentação do Lab08 - Modelo Lógico e Análise de Dados em Grafos
+# Equipe `PLAY`
 
-Estrutura de pastas:
-
-~~~
-├── README.md  <- arquivo apresentando a tarefa
-│
-└── images     <- arquivos de imagem usados na tarefa
-~~~
-
-# Equipe `<nome da equipe>`
-
-# Subgrupo `<letra do subgrupo>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
-* `<nome completo>` - `<RA>`
+# Subgrupo `A`
+* `Luiz Felipe Corradini Rego Costa` - `230613`
+* `Pedro da Rosa Pinheiro` - `231081`
 
 ## Modelo Lógico do Banco de Dados de Grafos
 > Coloque aqui o modelo lógico.
