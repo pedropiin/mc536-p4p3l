@@ -6,7 +6,7 @@
 
 ### 1)
 
-Qual o peso total de cada receita?
+Quais ingredientes que mais aparecem combinados em determinadas receitas?
 
 ### 2)
 
