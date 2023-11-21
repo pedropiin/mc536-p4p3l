@@ -12,7 +12,7 @@
 >
 ### Quais são as receitas mais completas?
 > 
->  * Para responder a essa análise, precisamos, primeiramente, alterar nosso grafo inicial. Como nosso grafo é bipartido, podemos realizar um pŕojeção,na qual ligaremos apenas receitas. A partir disso, podemos realizar junções, para criarmos um grafo conectado por todos os ingredientes. Desse modo, enfim, podemos encontrar, calculando para cada nó do grafo, os nós com maiores coeficientes de proximidade.
+>  * Para responder a essa análise, precisamos, primeiramente, alterar nosso grafo inicial. Como nosso grafo é bipartido, podemos realizar um pŕojeção,na qual ligaremos receitas entre si, atribuindo uma propriedade de peso à aresta conectora. A partir disso, podemos realizar junções, de modo a criarmos um grafo conectado por todos os ingredientes. Desse modo, enfim, podemos encontrar, calculando para cada nó do grafo, os nós com maiores coeficientes de proximidade.
 
 ### Quais ingredientes que não são utilizados em conjunto em nenhuma receita, poderiam potencialmente formar uma combinação?
 >   
@@ -20,4 +20,4 @@
 
 ### Como podemos identificar diferentes grupos de receitas?
 >   
->   * Nesse caso, precisamos avaliar o conceito de comunidade. Para isso, realizamos uma projeção, para que apenas receitas estejam interligadas. Para analisar as comunidades, verificamos os conjuntos de nós que existem mais arestas entre eles, e poucas arestas ligadas a outros nós fora deles. Assim, conseguimos separar o nosso grafo em comunidades, ou seja, conseguimos encontrar diferentes grupos de receitas.
+>   * Nesse caso, precisamos avaliar o conceito de comunidade. Para isso, realizamos uma projeção, para que apenas receitas estejam interligadas. Para analisar as comunidades, verificamos os conjuntos de nós que existem mais arestas entre eles, e poucas arestas ligadas a outros nós fora deles. Assim, conseguimos separar o nosso grafo em comunidades, ou seja, conseguimos encontrar diferentes grupos de receitas. Por exemplo, se verificamos que o kibe e a esfirra estão interligados fortemente, por conter diversos ingredientes em comum, podemos avaliar que pertencem à mesma comunidade (no caso, a árabe).
