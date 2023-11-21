@@ -14,4 +14,4 @@ Quais os ingredientes mais usados dentre cada método de preparo de cada receita
 
 ### 3)
 
-Quais os subgrupos dos ingredientes utilizados em cada Receita?
+Quais os subgrupos dos ingredientes mais utilizados em cada tipo de Receita?
