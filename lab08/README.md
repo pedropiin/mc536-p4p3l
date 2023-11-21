@@ -15,8 +15,8 @@
 
 > Liste aqui as perguntas de pesquisa/análise e respectivas análises.
 >
-### Pergunta/Análise 1
-> * Quais são as receitas mais completas?
+### Quais são as receitas mais completas?
+> 
 >  Para responder a essa análise, precisamos, primeiramente, alterar nosso grafo inicial. Como nosso grafo é bipartido, podemos realizar um pŕojeção,na qual ligaremos apenas receitas. A partir disso, podemos realizar junções, para criarmos um grafo conectado por todos os ingredientes. Desse modo, enfim, podemos encontrar, calculando para cada nó do grafo, os nós com maiores coeficientes de proximidade.
 
 ### Pergunta/Análise 2
