@@ -1,4 +1,14 @@
-## Exercício 1
+# Equipe `PLAY`
+
+# Subgrupo `A`
+
+- `Luiz Felipe Corradini Rego Costa` - `230613`
+- `Pablo Henrique Almeida Mendes` - `230977`
+- `Pedro da Rosa Pinheiro` - `231081`
+
+## Tarefa de Cypher sobre Patologias, Medicamentos e Efetios Colaterais
+
+## Exercício
 
 Faça a projeção em relação a Patologia, ou seja, conecte patologias que são tratadas pela mesma droga.
 
@@ -17,7 +27,9 @@ RETURN p1, p2
 LIMIT 20
 ```
 
-## Exercício 2
+# Trabalhando com Efeitos Colaterais
+
+## Exercício
 
 Construa um grafo ligando os medicamentos aos efeitos colaterais (com pesos associados) a partir dos registros das pessoas, ou seja, se uma pessoa usa um medicamento e ela teve um efeito colateral, o medicamento deve ser ligado ao efeito colateral.
 
@@ -53,7 +65,10 @@ Proponha um tipo de análise e escreva uma sentença em Cypher que realize a an�
 ### Resolução
 
 ```cypher
-Podemos realizar uma projeção que conecta medicamentos que geraram o mesmo efeito colateral. Assim, podemos facilmente visualizar relações e associar princípios ativos semelhantes à certos efeitos colaterais.
+Podemos realizar uma projeção que conecta medicamentos que geraram 
+o mesmo efeito colateral. Assim, podemos facilmente visualizar
+relações e associar princípios ativos semelhantes à certos efeitos
+colaterais.
 A query que nos possibilita tal relação é a seguinte:
 MATCH (d1:Drug)-[x]->(e:Efeito)<-[y]-(d2:Drug)
 WHERE x.weight > 3 AND y.weight > 3
