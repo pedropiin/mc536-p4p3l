@@ -13,7 +13,6 @@
 
 ## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
-> Liste aqui as perguntas de pesquisa/análise e respectivas análises.
 >
 ### Quais são as receitas mais completas?
 > 
@@ -23,7 +22,6 @@
 >   
 >   * Podemos procurar ingredientes que apresentam poucas ou nenhuma receitas em comum, mas, das receitas que fazem parte, existem muitos ingredientes em congruência. Por exemplo: geleia e pasta de amendoim. Ambos aparecem em suas respectivas receitas, que, em grande parte, apresentam os mesmos ingredientes, como, por exemplo, torrada com geleia e torrada com pasta de amendoim. Consequentemente, por mais que não registrado, é possível estabelecer um alto grau de combinação entre ambos ingredientes. Precisamos, para tal análise, analisar os motifs triangulares dentro do grafo, no qual os ingredientes A e B fazem parte da receita X e a os ingredientes B e C compõe a receita Y. Assim, conforme encontramos múltiplas receitas em que A e C estão interligados indiretamente, podemos estabelecer, no fim, uma relação entre os dois.
 
-### Pergunta/Análise 3
-> * Pergunta 3
+### Como podemos identificar diferentes grupos de receitas?
 >   
->   * Explicação sucinta da análise que será feita no grafo para atender à pergunta. Deve ser indicado explicitamente em qual das modalidades a análise se encaixa: centralidade; vulnerabilidade; comunidade/modularidade; motifs; predição de links.
+>   * Nesse caso, precisamos avaliar o conceito de comunidade. Para isso, realizamos uma projeção, para que apenas receitas estejam interligadas. Para analisar as comunidades, verificamos os conjuntos de nós que existem mais arestas entre eles, e poucas arestas ligadas a outros nós fora deles. Assim, conseguimos separar o nosso grafo em comunidades, ou seja, conseguimos encontrar diferentes grupos de receitas.
