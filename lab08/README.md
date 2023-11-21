@@ -10,9 +10,9 @@
 ## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
 >
-### Quais são as receitas mais completas?
+### Quais são as receitas que mais possuem ingredientes em comum com outras receitas?
 > 
->  * Para responder a essa análise, precisamos, primeiramente, alterar nosso grafo inicial. Como nosso grafo é bipartido, podemos realizar um pŕojeção,na qual ligaremos receitas entre si, atribuindo uma propriedade de peso à aresta conectora. A partir disso, podemos realizar junções, de modo a criarmos um grafo conectado por todos os ingredientes. Desse modo, enfim, podemos encontrar, calculando para cada nó do grafo, os nós com maiores coeficientes de proximidade.
+>  * Para responder a essa análise, precisamos, primeiramente, alterar nosso grafo inicial. Como nosso grafo é bipartido, podemos realizar um projeção, na qual ligaremos receitas entre si, atribuindo uma propriedade de peso à aresta conectora, na qual o peso equivale ao número de ingredientes em comum. Desse modo, utilizando o conceito de closeness centrality, podemos encontrar, calculando para cada nó do grafo, os nós com maiores coeficientes de proximidade, isto é, as receitas que mais possuem ingredientes variados, e, portanto, possuem grande diversidade de nutrientes e de subgrupos de ingredientes.
 
 ### Quais ingredientes que não são utilizados em conjunto em nenhuma receita, poderiam potencialmente formar uma combinação?
 >   
